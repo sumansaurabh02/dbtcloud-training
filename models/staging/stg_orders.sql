@@ -10,8 +10,10 @@ o.ordersellingprice,
 --from raw_customer
 c.customername,
 c.segment,
+c.customerid,
 --from raw_product
 c.country,
+p.productid,
 p.category,
 p.productname,
 p.subcategory
