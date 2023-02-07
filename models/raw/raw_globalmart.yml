@@ -9,6 +9,10 @@ models:
           - not_null
   - name: raw_orders
     columns:
+      - name: orderid
+        tests:
+          - unique
+          - not_null
       - name: shipmode
         tests:
           - accepted_values:
